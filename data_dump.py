@@ -1,6 +1,8 @@
 import pandas as pd
 import json
 from sensor.config import mongo_client
+from dotenv import load_dotenv
+load_dotenv()
 
 DATA_FILE_PATH="./notebook/aps_failure_training_set1.csv"
 DATABASE_NAME='aps'
